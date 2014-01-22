@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F354D9E2-A430-4E94-87E3-EC74468877B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TicTacToe___WFA</RootNamespace>
+    <AssemblyName>TicTacToe - WFA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tacTacToe-Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\aboutWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\aboutWindow.Designer.cs">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\aboutWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Form1.Designer.cs">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.Designer.cs">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\highscoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\highscoresForm.Designer.cs">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\highscoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\nextPersonTurn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\nextPersonTurn.Designer.cs">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\nextPersonTurn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Program.cs" />
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\aboutWindow.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\aboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Form1.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.en-CA.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\helpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\highscoresForm.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\highscoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\nextPersonTurn.resx">
+      <DependentUpon>..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\nextPersonTurn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Resources.Designer.cs">
+      <DependentUpon>..\..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Settings.Designer.cs">
+      <DependentUpon>..\..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Properties\Settings.settings</DependentUpon>
+    </Compile>
+    <None Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Resources\unmuteIMG.jpg" />
+    <None Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\Resources\muteIMG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\..\..\Emily%27s Stuff\Flash Drive - Grade 11\ICS Stuff\TicTacToe - WFA\TicTacToe - WFA\tacTacToe-Icon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
